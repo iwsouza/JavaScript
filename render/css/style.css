@@ -1,0 +1,77 @@
+*,::after,::before
+{
+  box-sizing:border-box
+}
+
+body
+{
+  margin:0;
+  font-size:1rem;
+  font-weight:400;
+  line-height:1.5;
+  color:#212529;
+  text-align:left;
+  background-color:#fff
+}
+
+main
+{
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center
+}
+
+.box
+{
+  width: 33%;
+  height: auto;
+  display: inline-block;
+  background: #fff;
+  border-radius:20px;
+  border: 1px solid #eee;
+  margin-top: 40px;
+  margin-bottom:15px;
+  margin-left: 5px;
+  margin-right: 5px;
+  box-sizing: border-box;
+  box-shadow: 0 0 10px #eee;
+}
+
+img.box-img
+{
+  width: 100%;
+  height: auto;
+  max-height: 300px
+  float: left;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.likes
+{
+  width: 34px;
+  height: auto;
+  float: right;
+  display: inline-block;
+  margin-top: 5px;
+  margin-right: 5px;
+  text-align: center;
+
+}
+
+.likes svg
+{
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.count-likes
+{
+  width: 100%;
+  display: block;
+  font-weight: bold;
+
+}
